@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
     margin: 0;
     padding: 0;
@@ -67,3 +68,18 @@ button:hover{
     text-decoration: underline;
 }
 
+=======
+h1{
+    color:blue;
+    text-align: center;
+}
+
+.box{
+    height: 50px;
+    width: 25px;
+    display: flex;
+    border: 2px black solid;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> Stashed changes

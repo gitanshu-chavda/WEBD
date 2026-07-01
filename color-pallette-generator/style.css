@@ -54,7 +54,7 @@ h1::after{
     cursor: pointer;
     font-weight: 500;
     margin-bottom: 2rem;
-    font-size: 1rem;
+    font-size: rem;
 }
 
 #generate-btn::hover{

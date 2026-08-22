@@ -1,17 +1,9 @@
-import { useState } from "react";
-import "./App.css"
+import "./App.css"; // Removed unused useState import
+import Counter from "./Counter.jsx"; // Capitalized the file name if you renamed it
 
 function App(){
-    const [count, setCount] = useState(0);
     return(
-        <div className="counter">
-            <h1>{count} </h1>
-            <div className="buttons">
-              <button onClick={() => setCount(count+1)}>+</button>
-             <button onClick={() => setCount(count - 1)}>-</button>
-             <button onClick={() => setCount(0)}>Reset</button>
-            </div>
-        </div>
+        <Counter name="React Learner" />
     );
 }
 
